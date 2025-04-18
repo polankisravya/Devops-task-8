@@ -19,20 +19,20 @@ hello-java-maven/
 - **Jenkins Job Type:** Freestyle
 - **Build Goal:** `clean package`
 
+### Jenkins Job Setup
+
+1. Open Jenkins Dashboard
+2. Create a new Freestyle Job
+3. Connect your GitHub repository (provide the repo URL)
+4. Add build step: `mvn clean install`
+5. Save and Build the job
+
+
 ## Output
 - Console Output shows `BUILD SUCCESS`
 
 ## Screenshot
-(Add a screenshot here showing successful Jenkins build)
+(![image](https://github.com/user-attachments/assets/66a1299c-ed33-405f-96f4-fc676336ea44)
+)
 
 ---
-
-## Questions
-1. **What is Jenkins?**
-   Jenkins is an open-source automation server for building, testing, and deploying software.
-
-2. **What is Maven used for?**
-   Maven is a build automation tool for Java projects, handling dependencies, compiling code, and packaging it.
-
-3. **How does Jenkins use Maven?**
-   Jenkins uses Maven to compile Java code, resolve dependencies, and build the project through configured jobs.
